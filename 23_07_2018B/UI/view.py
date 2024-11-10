@@ -37,6 +37,7 @@ class View(ft.UserControl):
 
 
         self._ddAnno=ft.Dropdown(label="Anno", width=200 )
+        self._controller.fillDDYear()
         self._page.controls.append(self._ddAnno)
 
         self.txt_giorni = ft.TextField(
